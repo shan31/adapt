@@ -1,53 +1,3 @@
-/******************************************************************
-Theme Name: Personal 
-Description: 
-Author: Colorlib
-Author URI: 
-Version: 1.0
-Created: 
-******************************************************************/
-/*------------------------------------------------------------------
-
-
--------------------------------------------------------------------*/
-/*------------------------------------------------------------------
-[Table of contents]
-
-1.  Basic Styles
-	1.1	Variables
-	1.2	Mixins
-	1.3	Flexbox
-	1.4	Reset
-2.  Elements
-3.  Menu Style 
-4.  Home Page Style
-5.  About Page Style
-6.  Department Page Style
-7.  Blog Page Style
-8.  Contact Page Style
-9.  Footer Style
-
--------------------------------------------------------------------*/
-/* =================================== */
-/*  Font Family and Colors Styles
-/* =================================== */
-/*
-
-$primary-font	: 'Poppins', sans-serif;
----------------------------------------------
-
-$primary-color	: #8490ff;
-$title-color	: #222222;
-$text-color		: #777777;
-
-$white			: #fff;
-$offwhite		: #f9f9ff;
-$black			: #222;
-
-*/
-/* =================================== */
-/*  Basic Style 
-/* =================================== */
 ::-moz-selection {
   /* Code for Firefox */
   background-color: #8490ff;
@@ -2063,6 +2013,7 @@ h1, h2, h3, h4, h5, h6 {
   transition: all 0.5s;
   z-index: 997;
   background: #fff;
+  background-image: linear-gradient(to right top, #85e21e, #8ae528, #8fe730, #94ea37, #99ec3e, #97ed49, #95ef53, #94f05d, #8df06c, #87ef7a, #82ef86, #7eee92);
 }
 
 #header.header-scrolled {
@@ -2081,7 +2032,8 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .nav-menu li:hover > a, .menu-active, .parent-active > .sf-with-ul {
-  color: #8490ff !important;
+  color: #343a40 !important;
+  
 }
 
 /*--------------------------------------------------------------
@@ -2164,6 +2116,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 12px;
   text-transform: uppercase;
   outline: none;
+  color: #fff;
 }
 
 .nav-menu li:hover > a {
@@ -2338,6 +2291,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: -moz-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -webkit-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
+      background-image: linear-gradient(to right top, #85e21e, #8ae528, #8fe730, #94ea37, #99ec3e, #97ed49, #95ef53, #94f05d, #8df06c, #87ef7a, #82ef86, #7eee92);
 }
 
 .p1-gradient-color, .single-services:hover .lnr {
@@ -2346,6 +2300,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: -ms-linear-gradient(0deg, #8490ff 0%, #62bdfc 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
+      background-image: linear-gradient(to right top, #85e21e, #8ae528, #8fe730, #94ea37, #99ec3e, #97ed49, #95ef53, #94f05d, #8df06c, #87ef7a, #82ef86, #7eee92);
+}
+
+.single-services:hover a h4{
+ color: #94ea37;
 }
 
 .primary-btn {
@@ -3733,6 +3692,7 @@ dl.accordion.time-line:before {
     color: #fff;
     text-align: center;
     padding: 12px 0px;
+        background-image: linear-gradient(to right top, #85e21e, #8ae528, #8fe730, #94ea37, #99ec3e, #97ed49, #95ef53, #94f05d, #8df06c, #87ef7a, #82ef86, #7eee92);
 }
 
 .widget-wrap .user-info-widget .social-links li a {
